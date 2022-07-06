@@ -1,0 +1,355 @@
+body {
+     font-family: 'Oswald', sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+section {
+     margin-bottom: 90px;
+
+}
+
+p {
+     font-family: sans-serif;
+     color: rgb(124, 97, 97);
+     line-height: 25px;
+     letter-spacing: 1px;
+
+}
+
+/**TOP BANNER START**/
+
+#top-banner {
+
+     background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.651)), url(images/donation7.jpg);
+     background-repeat: no-repeat;
+
+     width: 100%;
+}
+
+.container {
+     overflow: hidden;
+}
+
+.banner-content {
+     color: white;
+     text-align: center;
+}
+
+.banner-content h1 {
+     font-size: 50px;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     margin-top: 150px;
+     color: rgb(255, 255, 255);
+}
+
+
+.banner-content P {
+     color: rgb(236, 222, 222);
+     line-height: 25px;
+     letter-spacing: 1px;
+
+}
+
+#donate-btn {
+     background-image: linear-gradient(rgb(253, 131, 30), rgb(82, 65, 9));
+     padding: 15px 30px;
+     border-radius: 30px;
+     color: white;
+     font-size: 18px;
+     font-weight: 600px;
+     margin-bottom: 70px;
+     margin-top: 30px;
+     border: none;
+}
+
+#donate-btn:hover {
+     background: rgb(151, 31, 9);
+     box-shadow: 0px 0px 85px -5px orange;
+
+}
+
+/**TOP BANNER END**/
+
+
+
+/**DONET TODAY SECTION    START**/
+
+.donet {
+     text-align: center;
+}
+
+.donet h1 {
+     font-size: 40px;
+     text-transform: uppercase;
+}
+
+.container-donet {
+     display: flex;
+     margin-left: 340px;
+     margin-top: 30px;
+
+}
+
+.donet-price {
+     padding: 20px;
+     background: rgba(102, 51, 153, 0.062);
+     margin-left: 20px;
+     box-shadow: 0px 0px 85px -25px rgb(12, 12, 12);
+     color: rgb(143, 136, 136);
+}
+
+.input-donet {
+     text-align: center;
+     margin-top: 80px;
+}
+
+.active {
+     border: 3px solid rgb(199, 3, 52);
+     background-color: rgba(230, 29, 29, 0.151);
+     border-radius: 5px;
+     color: red;
+}
+
+.input-donet input {
+     border: none;
+     border-bottom: 1px solid rgb(160, 151, 151);
+     width: 600px;
+     font-size: 20px;
+     text-align: center;
+}
+
+.input-donet input:focus {
+     outline: none;
+}
+
+#donet-btn {
+     text-align: center;
+     margin-top: 20px;
+}
+
+/**DONET TODAY SECTION END**/
+
+
+
+
+
+/**DONET PLAN SECTION START**/
+
+.container-plan {
+     display: flex;
+     margin-left: 125px;
+}
+
+.plan {
+     width: 23%;
+     border: 1px solid rgb(241, 238, 238);
+     padding: 20px;
+     text-align: justify;
+     margin-left: 30px;
+     float: left;
+     border-radius: 5px;
+     margin-top: 40px;
+}
+
+.omato-plan {
+     background-color: rgba(255, 99, 71, 0.171);
+}
+
+.green-plan {
+     background-color: rgba(54, 223, 20, 0.171);
+}
+
+.red-plan {
+     background-color: rgba(38, 50, 219, 0.171);
+}
+
+.plan:hover {
+     background-color: rgb(223, 65, 38);
+     color: white;
+     cursor: pointer;
+
+
+}
+
+.plan:hover p {
+     color: white;
+     transition: 0.4s;
+
+
+}
+
+/**DONET PLAN SECTION END**/
+
+
+/**SERVIVE SECTION START**/
+.container-survive {
+     display: flex;
+     margin-left: 40px;
+     overflow: hidden;
+     margin-top: 50px;
+}
+
+.survive-people {
+     border: 1px solid rgb(207, 199, 199);
+     width: 22%;
+     float: left;
+     margin-left: 20px;
+     overflow: hidden;
+
+}
+
+.survive-people img {
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+     object-position: center;
+
+
+}
+
+.text-box {
+     padding: 10px;
+
+}
+
+.survive-people:hover img {
+     transform: scale(1.1);
+     transition: 0.4s;
+}
+
+
+/**SURVIVE SECTION END**/
+
+
+/**WATING  SECTION START**/
+
+.container-wait {
+     display: flex;
+     overflow: hidden;
+
+}
+
+.wait-content {
+     width: 40%;
+     text-align: left;
+     margin-left: 100px;
+
+}
+
+.wait-img {
+     width: 40%;
+
+
+}
+
+.wait-img img {
+     width: 100%;
+     margin-left: 80px;
+     margin-top: 45px;
+     border-radius: 5px;
+
+
+
+
+}
+
+.wait-content h1 {
+     font-size: 40px;
+     text-transform: uppercase;
+
+}
+
+.waiting-btn {
+     margin-left: 100px;
+
+}
+
+#waiting-img-btn {
+
+     margin-left: 285px;
+     transform: translateY(-250px);
+
+
+
+}
+
+/**WAITING SECTION END**/
+
+
+
+/**SUBSCRIBE SECTION START**/
+.subscribe-item {
+     text-align: center;
+     overflow: hidden;
+}
+
+.subscribe-item .email {
+     border: none;
+     background: rgb(212, 212, 211);
+     padding: 15px;
+     width: 400px;
+     font-size: 18px;
+     border-radius: 5px;
+
+}
+
+.subscribe-item input:focus {
+     outline: none;
+}
+
+.subscribe-item .subscribe {
+     border: none;
+     background: rgb(241, 64, 11);
+     padding: 15px;
+     width: 200px;
+     font-size: 18px;
+     border-radius: 5px;
+     color: white;
+     margin-left: -50px;
+     border-top-left-radius: 0px;
+     border-bottom-left-radius: 0px;
+
+
+}
+
+.subscribe-item {
+     padding: 80px;
+     background-color: rgb(181, 184, 187);
+}
+
+.subscribe {
+     padding: 250px;
+     margin-top: 20px;
+}
+
+.subscribe-wraper {
+     margin-top: -220px;
+}
+
+.subscribe-item .subscribe:hover {
+     background: rgb(126, 66, 32);
+}
+
+/**SUBSCRIBE SECTION END**/
+
+
+
+/**FOOTER START**/
+
+#footer {
+     background-color: rgb(10, 10, 80);
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     margin-top: -199px;
+}
+
+.footer-content {
+     text-align: center;
+     color: rgb(252, 248, 57);
+     margin-bottom: 50px;
+}
+
+/**FOOTER END**/
